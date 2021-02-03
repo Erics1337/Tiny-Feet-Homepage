@@ -1,0 +1,430 @@
+/* --------------------------------- COLORS --------------------------------- 
+
+#66a0ff blue
+#a8c596 green
+*/
+
+
+/* --------------------------------- GLOBAL --------------------------------- */
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/patternDustScratches.png') center center;
+}
+
+h1 {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h2, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------------------------------- SECTION COVER --------------------------------- */
+#section-cover {
+    /* height: 100%; */
+    background: linear-gradient( rgb(177, 197, 152, .5), rgba(177, 197, 152));
+    background-size: cover;
+    color: white;
+}
+
+#section-cover .feet1 {
+    position: relative;
+    top: 700px;
+    left: 10%;
+    transform: rotate(200deg);
+}
+#section-cover .feet2 {
+    position: relative;
+    top: 600px;
+    left: 8%;
+    transform: rotate(220deg);
+}
+#section-cover .feet3 {
+    position: relative;
+    top: 550px;
+    left: 9%;
+    transform: rotate(250deg);
+}
+#section-cover .feet4 {
+    position: relative;
+    top: 440px;
+    left: 10%;
+    transform: rotate(230deg);
+}
+#section-cover .feet5 {
+    position: relative;
+    top: 310px;
+    left: 9%;
+    transform: rotate(220deg);
+}
+
+#section-cover .feet6 {
+    position: relative;
+    top: 190px;
+    left: 10%;
+    transform: rotate(230deg);
+}
+
+#section-cover .feet7 {
+    position: relative;
+    top: 50px;
+    left: 12%;
+    transform: rotate(200deg);
+}
+
+#section-cover h1 {
+    margin-top: 245px;
+    margin-block: 50%;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#section-cover h2 {
+    font-size: 1.8rem;
+    margin-top: 440px;
+    float: left;
+}
+
+#section-cover .col-md-2 {
+    padding-bottom: 50px;
+}
+
+/* --------------------------------- BUTTONS -------------------------------- */
+.fa-angle-double-down {
+    font-size: 3rem;
+    color: white;
+    margin-left: 30px;
+
+}
+
+/* --------------------------------- NAVBAR --------------------------------- */
+#navbar {
+    z-index: 1;
+}
+
+.nav-item a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.nav-item a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #66a0ff;
+    transition: 0.5s;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + #section-call-to-action {
+    margin-top: 52px;
+  }
+
+/* ----------------------------- SECTION CALL-TO-ACTION ----------------------------- */
+#section-call-to-action {
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), 
+    url(../img/trees.jpg) center repeat fixed;
+    background-size: 2000px;
+    padding: 140px 0;
+    color: white;
+
+}
+
+#section-call-to-action h1 {
+    text-shadow: 5px 5px 5px black;
+    padding-bottom: 20px;
+}
+
+/* ------------------------------ SECTION-STEPS ----------------------------- */
+#section-steps h1 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+    color: #66a0ff;
+    line-height: 120%;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+#section-steps h2 {
+    position: relative;
+    font-size: 1.5rem;
+    color: #66a0ff;
+    left: 80px;
+    bottom: 20px;
+}
+
+.fa-check-circle {
+    position: relative;
+    top: 20px;
+
+
+    color: #a8c596;
+}
+
+.steps-hr {
+    padding-bottom: 10px;
+}
+
+/* ------------------------------ SECTION-TOOLS ----------------------------- */
+#section-tools {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(121, 159, 252))
+}
+#section-tools h1 {
+    text-align: center;
+    color: #66a0ff;
+    margin-top: 70px;
+    font-size: 3.5rem;
+}
+#section-tools h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 300px;
+  }
+  
+  .button-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .carousel {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+  }
+  
+  .card {
+    background: black;
+    min-width: 400px;
+    height: 200px;
+    margin-right: 1rem;
+    display: inline-block;
+  }
+
+/* ------------------------------ SECTION-ABOUT ----------------------------- */
+#section-about {
+    background-color: rgba(121, 159, 252);
+}
+
+#section-about h1 {
+    color: white;
+    padding-top: 50px;;
+}
+
+#section-about h2 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#section-about .imgValeda, .imgEric{
+    position: relative;
+    top: 50px;
+    left: 5px;
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#section-about .imgThirtyPercent {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+#section-about img:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+#section-about .container {
+    padding-bottom: 70px;
+}
+
+/* ----------------------------- SECTION-CONTACT ---------------------------- */
+.section-contact {
+    background-color: white;
+}
+
+#section-contact h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#section-contact .col-sm-4 {
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+#section-contact .col-sm-4:first-child {
+    padding-left: 50px;
+
+}
+
+#section-contact h1 {
+    text-align: center;
+    color: #66a0ff;
+    line-height: 120%;
+    padding-top: 10px;
+    font-size: 3.5rem;
+}
+
+#contact .btn {
+    font-size: 20px;
+    border-radius: 24px;
+}
+
+.form-horizontal {
+    padding-top: 1rem;
+}
+
+textarea:focus, input:focus {
+    border-color: #a8c596 !important;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.175) inset, 0 0 1px rgba(231, 76, 60, 0.05) !important;
+    outline: 0 none;
+}
+
+#section-contact .feet {
+    position: relative;
+    top: 100px;
+    left: 17%;
+    transform: rotate(-30deg);
+  }
+
+/* ----------------------------- SECTION-SURVEY ----------------------------- */
+#section-survey {
+    background: linear-gradient( rgb(176, 196, 151), rgba(0,0,0,0))
+}
+
+#section-survey p{
+    width: 200px;
+    margin: 30px auto 0 auto;
+    padding-bottom: 100px;
+}
+
+#section-survey h1 {
+    padding-top: 100px;
+}
+
+#section-survey h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* ----------------------------- FOOTER ----------------------------- */
+#footer {
+    /* background-color: rgb(255, 255, 255, .5); */
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+#footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+.fa-chevron-circle-up {
+    margin-top: 35px;
+    color: rgb(14, 96, 27);
+    transition: 0.2s;
+    padding-right: 150px;
+}
+
+.fa-chevron-circle-up:hover {
+    transition: 0.2s;
+    color: rgb(14, 96, 27, 0.92);
+}
+
+#footer .logo {
+    float: left;
+}
+
+#footer .scroll-to-top-button {
+    position: relative;
+    right: 40px;
+    /* margin: auto;
+    width: 50%; */
+}
+
+
+/* --------------------------------- BUTTONS -------------------------------- */
+#contact .btn.btn-success {
+    background-color: #a8c596;
+    border: 1px solid #a8c596;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+#contact .btn.btn-success:hover {
+    background-color: rgba(19, 128, 26, .9);
+    border: 1px solid rgba(19, 128, 26, 1);
+}
+
+
+/* ------------------------------- ANIMATIONS ------------------------------- */
+
+.js-wp-1,
+.js-wp-2,
+.js-wp-3 {
+    opacity: 0;
+}
+
+.js-wp-1.animated,
+.js-wp-2.animated,
+.js-wp-2.animated {
+    opacity: 1;
+}
+
+.js-wp-delay {
+    animation-delay: 0.2s;
+}
